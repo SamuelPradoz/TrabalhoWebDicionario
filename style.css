@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.img{
+display: flex;
+width: 50%;
+
+}
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.glossario {
+    flex: 1;
+    margin-bottom: 20px;
+}
+.letra li{
+    display: inline;
+    margin-right: 10px;
+}
+.letra li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: firebrick;
+    cursor: pointer;
+}
+
+/*quando passar o mouse encima da letra aparece a barrinha embaixo*/
+.letra a:hover {
+    text-decoration: underline;
+}
+.content {
+    flex: 2;
+    padding-right: 60px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.content iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    display: none; 
+}
+.content iframe.active{
+    display: block;
+}
+.hidden {
+    display: none;
+}

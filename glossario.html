@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<!-- Este tem JAVASCRIPT -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Glossário</title>
+<style>
+    body {
+       
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+    height: max-content;
+}
+
+.glossario {
+    
+    margin-bottom: 20px;
+}
+.letra{
+    list-style-type: none;
+}
+.letra li a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(3, 48, 90);
+    cursor: pointer;
+}
+
+/*quando passar o mouse encima da letra aparece a barrinha embaixo*/
+.letra a:hover {
+    text-decoration: underline;
+    
+}
+.content {
+
+    flex: 2;
+    padding-right: 60px;
+    padding-left: 20px;
+    position: relative;
+}
+.iframe {
+    min-height: 1000px;
+    border: none;
+}
+.content iframe.active{
+    display: flex;
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(3, 48, 90);
+}
+
+</style>
+</head>
+<body>
+    <header>    
+    <h1>Dicionário de tecnologia</h1>
+    </header>
+    <div class="container">
+    <div class="glossario">
+        <ul class="letra">
+                <li><a href="#" data-letter="A" class="letter-link">A</a></li>         
+                <li><a href="#" data-letter="B" class="letter-link">B</a></li>         
+                <li><a href="#" data-letter="C" class="letter-link">C</a></li>         
+                <li><a href="#" data-letter="D" class="letter-link">D</a></li>     
+                <li><a href="#" data-letter="E" class="letter-link">E</a></li>         
+                <li><a href="#" data-letter="F" class="letter-link">F</a></li>
+                <li><a href="#" data-letter="G" class="letter-link">G</a></li>
+                <li><a href="#" data-letter="H" class="letter-link">H</a></li>
+                <li><a href="#" data-letter="I" class="letter-link">I</a></li>
+                <li><a href="#" data-letter="J" class="letter-link">J</a></li>
+                <li><a href="#" data-letter="K" class="letter-link">K</a></li>
+                <li><a href="#" data-letter="L" class="letter-link">L</a></li>
+                <li><a href="#" data-letter="M" class="letter-link">M</a></li>
+                <li><a href="#" data-letter="N" class="letter-link">N</a></li>
+                <li><a href="#" data-letter="O" class="letter-link">O</a></li>
+                <li><a href="#" data-letter="P" class="letter-link">P</a></li>
+                <li><a href="#" data-letter="Q" class="letter-link">Q</a></li>
+                <li><a href="#" data-letter="R" class="letter-link">R</a></li>
+                <li><a href="#" data-letter="S" class="letter-link">S</a></li>
+                <li><a href="#" data-letter="T" class="letter-link">T</a></li>
+                <li><a href="#" data-letter="U" class="letter-link">U</a></li>
+                <li><a href="#" data-letter="V" class="letter-link">V</a></li>
+                <li><a href="#" data-letter="W" class="letter-link">W</a></li>
+                <li><a href="#" data-letter="X" class="letter-link">X</a></li>
+                <li><a href="#" data-letter="Y" class="letter-link">Y</a></li>
+                <li><a href="#" data-letter="Z" class="letter-link">Z</a></li>
+    
+        </ul>
+    </div>
+    <div class="content">
+    <iframe  src="A.html" class="iframe" id="iframe-content-A"></iframe>
+    <iframe  src="B.html" class="iframe" id="iframe-content-B"></iframe>
+    <iframe  src="C.html" class="iframe" id="iframe-content-C"></iframe>
+    <iframe  src="D.html" class="iframe" id="iframe-content-D"></iframe>
+    <iframe  src="E.html" class="iframe" id="iframe-content-E"></iframe>
+    <iframe  src="F.html" class="iframe" id="iframe-content-F"></iframe>
+    <iframe  src="G.html" class="iframe" id="iframe-content-G"></iframe>
+    <iframe  src="H.html" class="iframe" id="iframe-content-H"></iframe>
+    <iframe  src="I.html" class="iframe" id="iframe-content-I"></iframe>
+    <iframe  src="J.html" class="iframe" id="iframe-content-J"></iframe>
+    <iframe  src="K.html" class="iframe" id="iframe-content-K"></iframe>
+    <iframe  src="L.html" class="iframe" id="iframe-content-L"></iframe>
+    <iframe  src="M.html" class="iframe" id="iframe-content-M"></iframe>
+    <iframe  src="N.html" class="iframe" id="iframe-content-N"></iframe>
+    <iframe  src="O.html" class="iframe" id="iframe-content-O"></iframe>
+    <iframe  src="P.html" class="iframe" id="iframe-content-P"></iframe>
+    <iframe  src="Q.html" class="iframe" id="iframe-content-Q"></iframe>
+    <iframe  src="R.html" class="iframe" id="iframe-content-R"></iframe>
+    <iframe  src="S.html" class="iframe" id="iframe-content-S"></iframe>
+    <iframe  src="T.html" class="iframe" id="iframe-content-T"></iframe>
+    <iframe  src="U.html" class="iframe" id="iframe-content-U"></iframe>
+    <iframe  src="V.html" class="iframe" id="iframe-content-V"></iframe>
+    <iframe  src="W.html" class="iframe" id="iframe-content-W"></iframe>
+    <iframe  src="X.html" class="iframe" id="iframe-content-X"></iframe>
+    <iframe  src="Y.html" class="iframe" id="iframe-content-Y"></iframe>
+    <iframe  src="Z.html" class="iframe" id="iframe-content-Z"></iframe>
+</div>
+</div>
+
+<script>
+    const letterLinks = document.querySelectorAll('.letter-link');
+
+    letterLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            const letter = this.getAttribute('data-letter');
+            const iframeContent = document.getElementById(`iframe-content-${letter}`);
+            
+
+            document.querySelectorAll('.content iframe').forEach(iframe => {
+                iframe.style.display = 'none';
+                
+            });
+
+        iframeContent.style.display='block';
+        });
+    });
+</script> 
+
+</body>
+</html>
